@@ -43,6 +43,7 @@ namespace OrganicStore.Models
                 {
                     Products products = new Products();
                     Products pd = new Models.Products();
+                    pd.product_id = reader.GetInt32("product_id");
                     pd.name = reader.GetString("name");
                     pd.original_price = reader.GetInt32("original_price");
                     pd.selling_price = reader.GetInt32("selling_price");
