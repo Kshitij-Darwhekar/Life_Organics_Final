@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Life Organics.props" />
+</Project>

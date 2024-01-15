@@ -1,0 +1,193 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/*nav div {
+    background-color: #2ecc71;
+    border : none;
+}
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #2ecc71;
+}
+
+.border-top {
+    border-top: 1px solid #2ecc71;
+}
+.border-bottom {
+    border-bottom: 1px solid #2ecc71;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f0;
+}
+
+header {
+    background-color: #2ecc71;*/
+    /* background-image: url(back.jpeg); */
+    /*color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #18241d;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+     color: #27ae60;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-item {
+    border: 1px solid #2ecc71;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 6px;
+ }
+
+.product-item h3 {
+    margin: 10px 0;
+    color: #2ecc71;
+ }
+
+.products-l {
+    display: flex;
+    justify-content: space-evenly;
+}*/
+
+/* .plist{
+    display: flex;
+    justify-content: flex-start;
+} */
+/*nav ul li .cart {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+#vegetables, #fruits, #leafy-greens, #cart-display {
+    display: none;
+    padding: 20px;
+}
+
+
+#vegetables:target {
+   display: block;
+ }
+
+    #fruits:target {
+        display: block;
+    }
+
+    #leafy-greens:target {
+        display: block;
+    }
+
+    #cart-display:target {
+        display: block;
+    }
+
+#vlist, #glist, #flist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
+
+/* ... (unchanged styles) ... */
+
+/* Cart page specific styles */
+/*#cart-items,
+#cart-total {
+    padding: 20px;
+}
+
+.cart-item {
+    border: 1px solid #2ecc71;*/ /* Green border for cart items */
+    /*border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    max-width: 200px;
+}
+
+    .cart-item img {
+        max-width: 100%;
+        border-radius: 6px;
+    }
+
+    .cart-item h3 {
+        margin: 10px 0;
+        color: #2ecc71;
+    }
+
+    .cart-item p {ś
+        margin-bottom: 10px;
+    }
+
+.price {
+    font-weight: bold;
+    color: #2ecc71;
+}*/

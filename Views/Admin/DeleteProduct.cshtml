@@ -1,0 +1,39 @@
+﻿@model OrganicStore.Models.Products
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h2>Delete Product</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="DeleteProduct" method="post">
+    <div class="form-group">
+        <label for="productName">Select Product:</label>
+        <select asp-for="name" class="form-control">
+            <option value="">-- Select Product --</option>
+            @foreach (var product in ViewData["ProductNames"] as List<string>)
+            {
+                <option value="@product">@product</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="productNameInput">Or Enter Product Name:</label>
+        <input type="text" asp-for="name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger">Delete Product</button>
+    </div>
+</form>

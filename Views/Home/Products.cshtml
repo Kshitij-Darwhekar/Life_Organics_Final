@@ -1,0 +1,145 @@
+﻿@* @model OrganicStore.Models.User; *@
+@* @model OrganicStore.Models.ViewModel; *@
+@model IEnumerable<OrganicStore.Models.Products>
+
+@{
+    ViewData["Title"] = "Products";
+
+}
+
+<div>
+    <header>
+        <h1>Life Organics</h1>
+        @* <h3>Welcome @{string username = ViewData["username"] as string;}</h3> *@
+        @* <h4>Welcome, @Model.username</h4> *@
+        <nav>
+            <ul>
+                <li><a href="#" class="category" data-category="fruits">Fruits</a></li>
+                <li><a href="#" class="category" data-category="vegetables">Vegetables</a></li>
+                <li><a href="#" class="category" data-category="leafy greens">Leafy Greens</a></li>
+                <li><a href="/Home/Cart" class="cart" data-category="cart">🛒 Cart</a></li>
+            </ul>
+        </nav>
+        @* <h4>Welcome, @Model.username</h4> *@
+    </header>
+
+    
+    <div class="grid-container">
+ 
+                @foreach (Products p in Model)
+                {
+                        
+                                    <div class="products-l" >
+                                        <div class="product-item" data-category="@p.category.ToLower()">
+                                            <img src="@Url.Content(@p.pic)" alt=@p.name />
+                                            <h3>@p.name</h3>
+                                            <p>@p.category</p>
+                                            <p> @p.details</p>
+                                            <p> Selling Price :@p.selling_price</p>
+                                            <p><del>MRP: @p.original_price</del></p>
+                                            <button class="button-submit" type="submit" onclick="addToCart('@p.product_id')"> Add to Cart </button>
+                                        </div>
+                                    </div>
+                               
+                 }
+
+    </div>
+
+
+    @section scripts {
+        
+
+            <script>
+                
+                document.addEventListener("DOMContentLoaded", function () {
+                    var categoryLinks = document.querySelectorAll(".category");
+                    //var productsContainer = document.getElementById("productsContainer");
+
+
+                    categoryLinks.forEach(function (link) {
+                        link.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            var selectedCategory = link.getAttribute("data-category");
+                            filterProducts(selectedCategory);
+                        });
+                    });
+
+                    function filterProducts(category) {
+                        var productItems = document.querySelectorAll(".product-item");
+
+                        productItems.forEach(function (item) {
+                            if (category === "all" || item.getAttribute("data-category") === category) {
+                                item.style.display = "block";
+                            } else {
+                                item.style.display = "none";
+                            }
+                        });
+                        //productsContainer.style.display = Array.from(productItems).some(item => item.style.display === "block") ? "block" : "none";
+                    }
+                });
+
+
+
+                // Add to Cart
+
+                function addToCart(productId) {
+
+                    if (typeof (Storage) !== "undefined") {
+                        var cart = JSON.parse(sessionStorage.getItem("cart")) || [];
+                        var existingProduct = cart.find(item => item.productId === productId);
+                        let index = cart.findIndex(item => item.productId === productId);
+
+                        if (existingProduct !== undefined) {
+                            cart.splice(index, 1);
+                            cart.push({
+                                productId: existingProduct.productId,
+                                quantity: existingProduct.quantity + 1
+                            })
+                            console.log(existingProduct);
+                            console.log("old value" + existingProduct.quantity);
+                            console.log("new value" + existingProduct.quantity);
+
+                        } else {
+                            cart.push({
+                                productId: productId,
+                                quantity: 1
+                            });
+                        }
+                        sessionStorage.setItem("cart", JSON.stringify(cart));
+                        var cartCounterStorage = JSON.parse(sessionStorage.getItem("cart")) || [];
+                        var totalQuantity = 0;
+
+                        cartCounterStorage.forEach(function (element) {
+                            if (element && typeof element.quantity === 'number') {
+                                totalQuantity += element.quantity;
+                            } else {
+                                console.log("Invalid element in cartCounterStorage:", element);
+                            }
+                        });
+
+                        console.log(totalQuantity);
+                        updateCartCounter(totalQuantity);
+
+                    } else {
+                        console.error("Session storage is not supported. Unable to add to cart.");
+                    }
+
+                }
+
+            function updateCartCounter(newQuantity) {
+                alert("Added to cart.");
+                var cartCounter = document.getElementById("cartCounter");
+                if (cartCounter) {
+                    cartCounter.innerText = newQuantity;
+                }
+                else {
+                    console.error("Counter element nor found");
+                }
+                
+            }
+        
+        </script>
+       
+   }
+
+</div>

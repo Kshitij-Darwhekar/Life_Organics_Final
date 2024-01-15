@@ -1,0 +1,30 @@
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\appsettings.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.staticwebassets.runtime.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.exe
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.deps.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.runtimeconfig.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.dll
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\bin\Debug\net8.0\Life Organics.pdb
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.AssemblyInfoInputs.cache
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.AssemblyInfo.cs
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.csproj.CoreCompileInputs.cache
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.RazorAssemblyInfo.cache
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.RazorAssemblyInfo.cs
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets\msbuild.Life Organics.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets\msbuild.build.Life Organics.props
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Life Organics.props
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Life Organics.props
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\scopedcss\bundle\Life Organics.styles.css
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\scopedcss\projectbundle\Life Organics.bundle.scp.css
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.dll
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\refint\Life Organics.dll
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.pdb
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\Life Organics.genruntimeconfig.cache
+C:\Users\KshitijDarwhekar\source\repos\OrganicStore\OrganicStore\obj\Debug\net8.0\ref\Life Organics.dll
