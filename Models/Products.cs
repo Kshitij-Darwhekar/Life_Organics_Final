@@ -59,7 +59,7 @@ namespace OrganicStore.Models
             }
             return list;
         }
-       /* public void AddProduct()
+        public void AddProduct()
         {
             using (SqlConnection conn = new SqlConnection(DBConnection.getConnectionString()))
             {
@@ -71,7 +71,7 @@ namespace OrganicStore.Models
                     cmd.Parameters.AddWithValue("@OriginalPrice", original_price);
                     cmd.Parameters.AddWithValue("@SellingPrice", selling_price);
                     cmd.Parameters.AddWithValue("@Category", category);
-                    cmd.Parameters.AddWithValue("@Details", details); 
+                    cmd.Parameters.AddWithValue("@Details", details);
                     cmd.Parameters.AddWithValue("@Pic", pic);
 
                     conn.Open();
@@ -94,9 +94,9 @@ namespace OrganicStore.Models
                     cmd.ExecuteNonQuery();
                 }
             }
-        }*/
+        }
 
-       /* public List<string> GetProductNames()
+        public List<string> GetProductNames()
         {
             List<string> productNames = new List<string>();
 
@@ -118,6 +118,6 @@ namespace OrganicStore.Models
                 }
             }
             return productNames;
-        }*/
+        }
     }
 }

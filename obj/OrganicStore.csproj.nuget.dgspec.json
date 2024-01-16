@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KshitijDarwhekar\\source\\repos\\OrganicStore\\OrganicStore\\OrganicStore.csproj": {}
+    "C:\\Users\\KaustubhShastrakar\\Downloads\\Life_Organics_Copy-main\\OrganicStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KshitijDarwhekar\\source\\repos\\OrganicStore\\OrganicStore\\OrganicStore.csproj": {
+    "C:\\Users\\KaustubhShastrakar\\Downloads\\Life_Organics_Copy-main\\OrganicStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KshitijDarwhekar\\source\\repos\\OrganicStore\\OrganicStore\\OrganicStore.csproj",
+        "projectUniqueName": "C:\\Users\\KaustubhShastrakar\\Downloads\\Life_Organics_Copy-main\\OrganicStore.csproj",
         "projectName": "OrganicStore",
-        "projectPath": "C:\\Users\\KshitijDarwhekar\\source\\repos\\OrganicStore\\OrganicStore\\OrganicStore.csproj",
-        "packagesPath": "C:\\Users\\KshitijDarwhekar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KshitijDarwhekar\\source\\repos\\OrganicStore\\OrganicStore\\obj\\",
+        "projectPath": "C:\\Users\\KaustubhShastrakar\\Downloads\\Life_Organics_Copy-main\\OrganicStore.csproj",
+        "packagesPath": "C:\\Users\\KaustubhShastrakar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KaustubhShastrakar\\Downloads\\Life_Organics_Copy-main\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KshitijDarwhekar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KaustubhShastrakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

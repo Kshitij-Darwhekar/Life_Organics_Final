@@ -1,4 +1,4 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OrganicStore.Models;
 using System.Collections.Generic;
 
@@ -14,7 +14,7 @@ namespace OrganicStore.Controllers
         [HttpPost]
         public IActionResult AddProduct(Products products)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 products.AddProduct();
                 TempData["SuccessMessage"] = "Products added succesfully";
@@ -74,4 +74,3 @@ namespace OrganicStore.Controllers
 
     }
 }
-*/

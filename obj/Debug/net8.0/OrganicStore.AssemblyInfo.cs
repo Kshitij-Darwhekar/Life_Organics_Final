@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrganicStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1578ad1110c4e9a3993c0067126db46a0293e674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrganicStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrganicStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
