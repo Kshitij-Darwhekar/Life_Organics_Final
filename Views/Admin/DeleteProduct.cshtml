@@ -1,4 +1,4 @@
-﻿@model OrganicStore.Models.Products
+@model OrganicStore.Models.Products
 
 @{
     ViewData["Title"] = "Delete Product";
@@ -20,7 +20,7 @@
     <div class="form-group">
         <label for="productName">Select Product:</label>
         <select asp-for="name" class="form-control">
-            <option value="">-- Select Product --</option>
+            <option value="">Select Product</option>
             @foreach (var product in ViewData["ProductNames"] as List<string>)
             {
                 <option value="@product">@product</option>
@@ -28,12 +28,11 @@
         </select>
     </div>
 
-    <div class="form-group">
-        <label for="productNameInput">Or Enter Product Name:</label>
-        <input type="text" asp-for="name" class="form-control" />
-    </div>
+   
+
+    <div style="margin-top: 5px;"></div>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-danger">Delete Product</button>
+        <button type="submit" style="background-color: #FF0000; padding: 10px 20px; font-size: 16px;" class="button-submit">Delete Product</button>
     </div>
 </form>
