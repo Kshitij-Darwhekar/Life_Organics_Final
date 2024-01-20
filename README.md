@@ -59,7 +59,7 @@ Before you begin, ensure you have the following installed:
 - SQL Server Express for the database.
 
 ### Installation
-1. Clone the repository: `git clone https://github.com/your-username/life-organics.git`
+1. Clone the repository: `git clone https://github.com/Kshitij_Darwhekar/life-organics-copy.git`
 2. Open the project in your C# development environment.
 3. Set up the SQL Server Express Local Database and update connection strings accordingly.
 
