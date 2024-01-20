@@ -15,6 +15,8 @@ Life Organics is an e-commerce platform specializing in organic vegetables, frui
 ## Features
 ### 1. Login Page
 - Secure user authentication for registered users.
+<img width="928" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/5dfa55dc-5cac-4412-b840-d5b2a38c074c">
+
 
 ### 2. Sign Up Page
 - User registration to create a new account.
