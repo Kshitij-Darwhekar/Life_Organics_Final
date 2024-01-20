@@ -43,6 +43,13 @@ Life Organics is an e-commerce platform specializing in organic vegetables, frui
 
 <img width="925" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/63c35d7b-de07-41b8-b603-94e9085b81e0">
 
+### 6. Admin Page
+- Admin Page to Add more Products
+<img width="922" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/993e91ea-7cdf-4059-a1ed-6ec1173cc47e">
+
+- Admin Page to Delete Products
+<img width="922" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/92b92cfc-14bd-4b17-a85b-e73deb62853b">
+
 
 ## Getting Started
 
