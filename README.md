@@ -20,15 +20,29 @@ Life Organics is an e-commerce platform specializing in organic vegetables, frui
 
 ### 2. Sign Up Page
 - User registration to create a new account.
+<img width="925" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/c51d359e-d5b3-425f-929e-8a4905092c46">
+
 
 ### 3. Contact Us Page
 - Enables users to get in touch with the Life Organics team.
+<img width="921" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/e8c42a78-e454-4d02-bbb9-85bcd0e6f01d">
+
 
 ### 4. Products Page
 - Showcase of organic vegetables, fruits, and leafy greens available for purchase.
+<img width="922" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/5138324d-6c9d-4a0e-baef-b7d89d680716">
+
+<img width="921" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/78c73a4c-059c-498e-913f-cf9ec8df718c">
+
+<img width="922" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/ceee9645-b544-491a-86e7-dee0a1e526f3">
+
+
 
 ### 5. Cart Page
 - Shopping cart functionality to manage selected items for purchase.
+
+<img width="925" alt="image" src="https://github.com/Kshitij-Darwhekar/Life_Organics_Copy/assets/54590658/63c35d7b-de07-41b8-b603-94e9085b81e0">
+
 
 ## Getting Started
 
