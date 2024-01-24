@@ -99,10 +99,10 @@ Ensure the website is fully responsive to provide a consistent and user-friendly
 ### 7) Newsletter Subscription
 Implement a newsletter subscription feature where users can opt to receive updates, promotions, and information about new products via email. This helps in building a loyal customer base and keeping users engaged with the platform.
 
-#### 8) Social Media Integration
+### 8) Social Media Integration
 Allow users to share their favorite products or purchases on social media platforms. Integrate social media sharing buttons to increase the visibility of the Life Organics platform and attract new users through word of mouth.
 
-#### 9) Advanced Search and Filtering
+### 9) Advanced Search and Filtering
 Enhance the product search functionality with advanced filters such as price range, organic certification, and product category. This makes it easier for users to find specific products and tailor their shopping experience according to their preferences.
 
 ### 10) Multi-language Support
